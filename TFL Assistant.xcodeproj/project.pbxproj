@@ -8,22 +8,45 @@
 
 /* Begin PBXBuildFile section */
 		AF2209FB2252D66D00CC6A28 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF2209FA2252D66D00CC6A28 /* AppDelegate.swift */; };
-		AF2209FD2252D66D00CC6A28 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF2209FC2252D66D00CC6A28 /* FirstViewController.swift */; };
-		AF2209FF2252D66D00CC6A28 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF2209FE2252D66D00CC6A28 /* SecondViewController.swift */; };
+		AF2209FD2252D66D00CC6A28 /* JPViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF2209FC2252D66D00CC6A28 /* JPViewController.swift */; };
 		AF220A022252D66D00CC6A28 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF220A002252D66D00CC6A28 /* Main.storyboard */; };
 		AF220A042252D66E00CC6A28 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF220A032252D66E00CC6A28 /* Assets.xcassets */; };
-		AF220A072252D66E00CC6A28 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF220A052252D66E00CC6A28 /* LaunchScreen.storyboard */; };
+		AF220A0F2252DCE700CC6A28 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF220A0E2252DCE700CC6A28 /* Launch Screen.storyboard */; };
+		AF32D3AE225D48490091B782 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF32D3AD225D48490091B782 /* MapViewController.swift */; };
+		AF48A2CE226A609000391ACC /* AddFundsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF48A2CD226A609000391ACC /* AddFundsViewController.swift */; };
+		AF48A2D0226B4C5C00391ACC /* AddTravelcardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF48A2CF226B4C5C00391ACC /* AddTravelcardViewController.swift */; };
+		AF6145F1226D28DB00F9DB8D /* ViewOystercardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF6145F0226D28DB00F9DB8D /* ViewOystercardViewController.swift */; };
+		AF6145F3226D30E900F9DB8D /* RequestRefundViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF6145F2226D30E900F9DB8D /* RequestRefundViewController.swift */; };
+		AF6145F5226D5F8000F9DB8D /* ManageAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF6145F4226D5F8000F9DB8D /* ManageAccountViewController.swift */; };
+		AF737619226FCC9000C6C5F2 /* LSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF737618226FCC9000C6C5F2 /* LSViewController.swift */; };
+		AFDD92382269A2EA00ACB044 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AFDD92372269A2EA00ACB044 /* GoogleService-Info.plist */; };
+		AFDD923A226A3E8000ACB044 /* AddOystercardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFDD9239226A3E8000ACB044 /* AddOystercardViewController.swift */; };
+		AFF3DD33225EC839002F431A /* loginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFF3DD32225EC839002F431A /* loginViewController.swift */; };
+		F6AFDB3D189AB4F387B34FB2 /* Pods_TFL_Assistant.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F21AD12CFDBED783BA634971 /* Pods_TFL_Assistant.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		AF2209F72252D66D00CC6A28 /* TFL Assistant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TFL Assistant.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF2209FA2252D66D00CC6A28 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AF2209FC2252D66D00CC6A28 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		AF2209FE2252D66D00CC6A28 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		AF2209FC2252D66D00CC6A28 /* JPViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JPViewController.swift; sourceTree = "<group>"; };
 		AF220A012252D66D00CC6A28 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AF220A032252D66E00CC6A28 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		AF220A062252D66E00CC6A28 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AF220A082252D66E00CC6A28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF220A0E2252DCE700CC6A28 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		AF32D3AD225D48490091B782 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		AF48A2CD226A609000391ACC /* AddFundsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddFundsViewController.swift; sourceTree = "<group>"; };
+		AF48A2CF226B4C5C00391ACC /* AddTravelcardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTravelcardViewController.swift; sourceTree = "<group>"; };
+		AF6145F0226D28DB00F9DB8D /* ViewOystercardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewOystercardViewController.swift; sourceTree = "<group>"; };
+		AF6145F2226D30E900F9DB8D /* RequestRefundViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RequestRefundViewController.swift; path = "/Volumes/1000GB (Storage)/Uni/Final Year Project/TFL Assistant/TFL Assistant/RequestRefundViewController.swift"; sourceTree = "<absolute>"; };
+		AF6145F4226D5F8000F9DB8D /* ManageAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManageAccountViewController.swift; sourceTree = "<group>"; };
+		AF737618226FCC9000C6C5F2 /* LSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LSViewController.swift; sourceTree = "<group>"; };
+		AFC7DFCA226E148700F3B638 /* TFL Assistant.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "TFL Assistant.entitlements"; sourceTree = "<group>"; };
+		AFDD92372269A2EA00ACB044 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../../Users/hamzayacub/Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		AFDD9239226A3E8000ACB044 /* AddOystercardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddOystercardViewController.swift; sourceTree = "<group>"; };
+		AFF3DD32225EC839002F431A /* loginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loginViewController.swift; sourceTree = "<group>"; };
+		BED2CE506EDE571D5B06D427 /* Pods-TFL Assistant.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TFL Assistant.release.xcconfig"; path = "Target Support Files/Pods-TFL Assistant/Pods-TFL Assistant.release.xcconfig"; sourceTree = "<group>"; };
+		ECE382E47720F0E18DEF267A /* Pods-TFL Assistant.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TFL Assistant.debug.xcconfig"; path = "Target Support Files/Pods-TFL Assistant/Pods-TFL Assistant.debug.xcconfig"; sourceTree = "<group>"; };
+		F21AD12CFDBED783BA634971 /* Pods_TFL_Assistant.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TFL_Assistant.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +54,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F6AFDB3D189AB4F387B34FB2 /* Pods_TFL_Assistant.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4C62BB385DF92F1D50341138 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F21AD12CFDBED783BA634971 /* Pods_TFL_Assistant.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		AF2209EE2252D66D00CC6A28 = {
 			isa = PBXGroup;
 			children = (
 				AF2209F92252D66D00CC6A28 /* TFL Assistant */,
 				AF2209F82252D66D00CC6A28 /* Products */,
+				B4CA07576CFCD5274119D903 /* Pods */,
+				4C62BB385DF92F1D50341138 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +90,34 @@
 		AF2209F92252D66D00CC6A28 /* TFL Assistant */ = {
 			isa = PBXGroup;
 			children = (
+				AF220A0E2252DCE700CC6A28 /* Launch Screen.storyboard */,
 				AF2209FA2252D66D00CC6A28 /* AppDelegate.swift */,
-				AF2209FC2252D66D00CC6A28 /* FirstViewController.swift */,
-				AF2209FE2252D66D00CC6A28 /* SecondViewController.swift */,
+				AFC7DFCA226E148700F3B638 /* TFL Assistant.entitlements */,
+				AFF3DD32225EC839002F431A /* loginViewController.swift */,
+				AF32D3AD225D48490091B782 /* MapViewController.swift */,
+				AF2209FC2252D66D00CC6A28 /* JPViewController.swift */,
+				AF737618226FCC9000C6C5F2 /* LSViewController.swift */,
 				AF220A002252D66D00CC6A28 /* Main.storyboard */,
+				AF6145F4226D5F8000F9DB8D /* ManageAccountViewController.swift */,
+				AF6145F0226D28DB00F9DB8D /* ViewOystercardViewController.swift */,
+				AFDD9239226A3E8000ACB044 /* AddOystercardViewController.swift */,
+				AF48A2CD226A609000391ACC /* AddFundsViewController.swift */,
+				AF48A2CF226B4C5C00391ACC /* AddTravelcardViewController.swift */,
+				AF6145F2226D30E900F9DB8D /* RequestRefundViewController.swift */,
 				AF220A032252D66E00CC6A28 /* Assets.xcassets */,
-				AF220A052252D66E00CC6A28 /* LaunchScreen.storyboard */,
 				AF220A082252D66E00CC6A28 /* Info.plist */,
+				AFDD92372269A2EA00ACB044 /* GoogleService-Info.plist */,
 			);
 			path = "TFL Assistant";
+			sourceTree = "<group>";
+		};
+		B4CA07576CFCD5274119D903 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ECE382E47720F0E18DEF267A /* Pods-TFL Assistant.debug.xcconfig */,
+				BED2CE506EDE571D5B06D427 /* Pods-TFL Assistant.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +127,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AF220A0B2252D66E00CC6A28 /* Build configuration list for PBXNativeTarget "TFL Assistant" */;
 			buildPhases = (
+				05305C38F3E642659484B177 /* [CP] Check Pods Manifest.lock */,
 				AF2209F32252D66D00CC6A28 /* Sources */,
 				AF2209F42252D66D00CC6A28 /* Frameworks */,
 				AF2209F52252D66D00CC6A28 /* Resources */,
+				8DFD7201F93EA90DBF14D67A /* [CP] Embed Pods Frameworks */,
+				660E4D42692CA3963572B023 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -99,6 +155,11 @@
 				TargetAttributes = {
 					AF2209F62252D66D00CC6A28 = {
 						CreatedOnToolsVersion = 10.1;
+						SystemCapabilities = {
+							com.apple.NearFieldCommunicationTagReading = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -125,22 +186,110 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AF220A072252D66E00CC6A28 /* LaunchScreen.storyboard in Resources */,
 				AF220A042252D66E00CC6A28 /* Assets.xcassets in Resources */,
+				AFDD92382269A2EA00ACB044 /* GoogleService-Info.plist in Resources */,
+				AF220A0F2252DCE700CC6A28 /* Launch Screen.storyboard in Resources */,
 				AF220A022252D66D00CC6A28 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		05305C38F3E642659484B177 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TFL Assistant-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		660E4D42692CA3963572B023 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TFL Assistant/Pods-TFL Assistant-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebaseAnonymousAuthUI.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebaseAuthUI.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebaseEmailAuthUI.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebaseAnonymousAuthUI.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebaseAuthUI.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebaseEmailAuthUI.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TFL Assistant/Pods-TFL Assistant-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8DFD7201F93EA90DBF14D67A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TFL Assistant/Pods-TFL Assistant-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TFL Assistant/Pods-TFL Assistant-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		AF2209F32252D66D00CC6A28 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AF2209FF2252D66D00CC6A28 /* SecondViewController.swift in Sources */,
 				AF2209FB2252D66D00CC6A28 /* AppDelegate.swift in Sources */,
-				AF2209FD2252D66D00CC6A28 /* FirstViewController.swift in Sources */,
+				AF6145F5226D5F8000F9DB8D /* ManageAccountViewController.swift in Sources */,
+				AF48A2D0226B4C5C00391ACC /* AddTravelcardViewController.swift in Sources */,
+				AF737619226FCC9000C6C5F2 /* LSViewController.swift in Sources */,
+				AF2209FD2252D66D00CC6A28 /* JPViewController.swift in Sources */,
+				AF6145F1226D28DB00F9DB8D /* ViewOystercardViewController.swift in Sources */,
+				AF32D3AE225D48490091B782 /* MapViewController.swift in Sources */,
+				AFF3DD33225EC839002F431A /* loginViewController.swift in Sources */,
+				AFDD923A226A3E8000ACB044 /* AddOystercardViewController.swift in Sources */,
+				AF6145F3226D30E900F9DB8D /* RequestRefundViewController.swift in Sources */,
+				AF48A2CE226A609000391ACC /* AddFundsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -153,14 +302,6 @@
 				AF220A012252D66D00CC6A28 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		AF220A052252D66E00CC6A28 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				AF220A062252D66E00CC6A28 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -284,17 +425,22 @@
 		};
 		AF220A0C2252D66E00CC6A28 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ECE382E47720F0E18DEF267A /* Pods-TFL Assistant.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "TFL Assistant/TFL Assistant.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9W57NR7LLL;
 				INFOPLIST_FILE = "TFL Assistant/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Westminster.TFL-Assistant";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -302,17 +448,22 @@
 		};
 		AF220A0D2252D66E00CC6A28 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BED2CE506EDE571D5B06D427 /* Pods-TFL Assistant.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "TFL Assistant/TFL Assistant.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9W57NR7LLL;
 				INFOPLIST_FILE = "TFL Assistant/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Westminster.TFL-Assistant";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
